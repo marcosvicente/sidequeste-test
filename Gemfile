@@ -16,12 +16,16 @@ gem 'coffee-rails', '~> 4.1.0'
 
 # use devise for make a userauthentication
 gem 'devise'
+# use cancancan for athentication with devise
+gem 'cancancan', '~> 2.0'
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
 gem 'jbuilder', '~> 2.0'
+# Build aplication with boostrap 4
+gem 'bootstrap', '~> 4.0.0'
 # bundle exec rake doc:rails generates the API under doc/api.
 gem 'sdoc', '~> 0.4.0', group: :doc
 
